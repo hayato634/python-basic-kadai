@@ -1,0 +1,20 @@
+import random
+
+# 変数varに0～4までのランダムな整数を代入する
+var = random.randint(0, 10)
+var = 3
+var = 5
+var = 15
+
+# 変数varの値を出力
+print(var)
+
+# 変数nvarの値が3の倍数なら「Fizz」、5の倍数なら「Buzz」、両方に該当するなら「FizzBuzz]、それ以外なら変数Varの値を出力する
+if (0 == var % 3) and (0 == var % 5):
+    print("FizzBuzz")
+elif 0 == var % 3:
+    print("Fizz")
+elif 0 == var % 5:
+    print("Buzz")
+15
+FizzBuzz
