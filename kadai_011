@@ -1,0 +1,28 @@
+list = ["水","金","地","火","木","土","天","海","冥"]
+
+#配列listの要素を1つずつ順番に出力する
+for i in list:
+    print(i)
+
+index = 0
+while index < len(list):
+    print(list[index])
+    index = index + 1
+水
+金
+地
+火
+木
+土
+天
+海
+冥
+水
+金
+地
+火
+木
+土
+天
+海
+冥
