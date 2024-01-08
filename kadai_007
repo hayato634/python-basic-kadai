@@ -2,10 +2,8 @@ list = ["月曜は晴れです","火曜日は雨です","水曜日は晴れで�
 
 print(list[2])
 
-水曜日は晴れです
-
 dictionary =  {"mon":"晴れ", "tue":"雨","wed":"晴れ","thu":"晴れ","fri":"曇り","sat":"曇りのち雨","sun":"雷雨"}
 
 print(dictionary["wed"])
-
+水曜日は晴れです
 晴れ
