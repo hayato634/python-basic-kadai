@@ -1,14 +1,14 @@
 class Human:
-    #コンストラクタを定義する
-    def __init__(self, name, age ):
+    def __init__(self, name, age):
         self.name = name
         self.age = age
+    
+    def printinfo(self):
+        print(f"名前： {self.name}, 年齢：{self.age}")
 
-#インスタンス化する
-human = Human("侍太郎", 36 )
+#Humanクラスのインスタンスを作成し、名前と年齢を渡して初期化します
+person = Human("侍太郎", 36)
 
-#属性にアクセスし、値を出力する
-print(human.name)
-print(human.age)
-侍太郎
-36
+#printinfoメソッドを呼び出して名前と年齢を出力します
+person.printinfo()
+名前： 侍太郎, 年齢：36
