@@ -1,0 +1,11 @@
+def calculate_total(price,consumption_tax):
+    #与えらえた引数priceに消費税を乗算し、変数totalに代入する
+    total = price * (1 + consumption_tax)
+    
+    #変数$totalの値を出力する
+    print(f"税込み価格は{total}円です")
+
+#関数を呼び出し、引数を引数を購入金額と消費税率に設定する
+calculate_total(1000, 0.1) # 例として、購入金額が1000円で消費税率が10％の場合の計算
+
+税込み価格は1100.0円です
