@@ -1,0 +1,20 @@
+#matplotlib.pyplotメソッドとnumpyをインポートするコードを記述する。
+import numpy as np
+import matplotlib.pyplot as plt
+
+#6個のグラフを表示する領域を作成します。
+fig, axes = plt.subplots(2, 3, tight_layout=True)
+
+y0 = [1, 2, -5, 2]
+axes[0,0].plot(y0)
+
+y0 = [1, 2, -5, 2]
+axes[0,1].plot(np.sin(y0))
+
+y0 = [1, 2, -5, 2]
+axes[0,2].hist(y0)
+
+y0 = [1, 2, -5, 2]
+axes[1,0].scatter(range(len(y0)), y0)
+
+plt.show()
