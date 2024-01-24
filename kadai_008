@@ -16,5 +16,5 @@
      print("Fizz")
  elif 0 == var % 5:
      print("Buzz")  
- else
+ else:
      print(var)
